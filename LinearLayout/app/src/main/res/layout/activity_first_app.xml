@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstapp.FirstAppActivity"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="@integer/material_motion_duration_long_1"
+        android:background="#E6EE9C"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="@integer/material_motion_duration_long_2"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_2"
+            android:background="#EF9A9A"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_2"
+            android:background="#F48FB1"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_2"
+            android:background="#CE93D8"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_2"
+            android:background="#B39DDB"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_2"
+            android:background="#9FA8DA"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_2"
+            android:background="#90CAF9"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="@integer/material_motion_duration_long_1"
+        android:background="#FFF59D"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="@integer/material_motion_duration_long_2"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_2"
+            android:background="#90CAF9"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_2"
+            android:background="#81D4FA"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_2"
+            android:background="#80DEEA"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_2"
+            android:background="#80CBC4"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/material_motion_duration_long_2"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="@integer/material_motion_duration_long_2"
+                android:background="#B71C1C"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="@integer/material_motion_duration_long_2"
+                android:background="#880E4F"
+                /><View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/material_motion_duration_long_2"
+            android:background="#4A148C"
+            /><View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/material_motion_duration_long_2"
+            android:background="#311B92"
+            /><View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/material_motion_duration_long_2"
+            android:background="#1A237E"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
